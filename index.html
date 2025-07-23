@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+    <div class="container mx-auto px-4 py-8">
+        <!-- Header mit Profilbild -->
+        <header class="text-center mb-12">
+            <img src="https://via.placeholder.com/150" alt="Profilbild" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+            <h1 class="text-4xl font-bold text-gray-800">Max Mustermann</h1>
+            <p class="text-lg text-gray-600">Webentwickler & Designer</p>
+        </header>
+
+        <!-- Skills Sektion -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Skills</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <h3 class="text-lg font-medium text-gray-700">Programmierung</h3>
+                    <p class="text-gray-600">HTML, CSS, JavaScript, Python</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <h3 class="text-lg font-medium text-gray-700">Design</h3>
+                    <p class="text-gray-600">UI/UX, Adobe XD, Figma</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <h3 class="text-lg font-medium text-gray-700">Tools</h3>
+                    <p class="text-gray-600">Git, VS Code, Docker</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kenntnisse Sektion -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Kenntnisse</h2>
+            <ul class="list-disc list-inside text-gray-600 space-y-2">
+                <li>Erfahrung in der Entwicklung responsiver Webseiten</li>
+                <li>Kenntnisse in agilen Entwicklungsmethoden (Scrum)</li>
+                <li>Grundlagen in Datenbanken (MySQL, MongoDB)</li>
+                <li>Vertrautheit mit RESTful APIs und Microservices</li>
+            </ul>
+        </section>
+
+        <!-- Kontakt Sektion -->
+        <section class="text-center">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Kontakt</h2>
+            <p class="text-gray-600">E-Mail: max.mustermann@example.com</p>
+            <p class="text-gray-600">LinkedIn: linkedin.com/in/maxmustermann</p>
+        </section>
+    </div>
+</body>
+</html>
